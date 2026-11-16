@@ -12,6 +12,9 @@ python3 scripts/lint_markdown.py
       [ -e "$chapter" ] || continue
       case "$chapter" in
         parts/part1/ch06-function-transformations-zeros-comprehensive.md|\
+        parts/part2/ch07-sequences-recurrence-basic-methods.md|\
+        parts/part2/ch08-sequence-sums-bounds-applications.md|\
+        parts/part2/ch09-induction-recurrence-estimates-inequalities.md|\
         parts/part2/ch10-trigonometric-functions-identities.md|\
         parts/part2/ch11-solving-triangles-sine-cosine-laws.md|\
         parts/part4/ch17-derivatives-function-analysis.md) continue ;;
