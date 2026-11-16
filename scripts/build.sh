@@ -18,6 +18,7 @@ python3 scripts/lint_markdown.py
         parts/part2/ch10-trigonometric-functions-identities.md|\
         parts/part2/ch11-solving-triangles-sine-cosine-laws.md|\
         parts/part2/ch12-complex-numbers-plane-polar-form.md|\
+        parts/part3/ch14-lines-circles-loci.md|\
         parts/part4/ch17-derivatives-function-analysis.md) continue ;;
       esac
       printf '\n\\newpage\n\n'
