@@ -1,0 +1,6 @@
+build/
+dist/
+*.aux
+*.log
+*.out
+*.toc

@@ -1,0 +1,22 @@
+---
+title: "猴子也能看懂的高考数学到强基高联"
+subtitle: "从直觉、方法到证明与迁移"
+author: "AI 辅助编写（持续修订稿）"
+documentclass: ctexbook
+classoption:
+  - oneside
+geometry: margin=2.2cm
+fontsize: 11pt
+numbersections: true
+toc: true
+colorlinks: true
+linkcolor: blue
+urlcolor: blue
+header-includes:
+  - \usepackage{amsmath,amssymb,mathtools}
+  - \usepackage{booktabs,longtable,array}
+  - \usepackage{tcolorbox}
+  - \usepackage{tikz}
+  - \usepackage{enumitem}
+  - \setlist{nosep}
+---
