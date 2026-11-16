@@ -11,6 +11,7 @@ python3 scripts/lint_markdown.py
     for chapter in "$part"/*.md; do
       [ -e "$chapter" ] || continue
       case "$chapter" in
+        parts/part1/ch06-function-transformations-zeros-comprehensive.md|\
         parts/part2/ch10-trigonometric-functions-identities.md|\
         parts/part2/ch11-solving-triangles-sine-cosine-laws.md|\
         parts/part4/ch17-derivatives-function-analysis.md) continue ;;
