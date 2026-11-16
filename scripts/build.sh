@@ -10,6 +10,11 @@ python3 scripts/lint_markdown.py
   for part in parts/part{1,2,3,4,5}; do
     for chapter in "$part"/*.md; do
       [ -e "$chapter" ] || continue
+      case "$chapter" in
+        parts/part2/ch10-trigonometric-functions-identities.md|\
+        parts/part2/ch11-solving-triangles-sine-cosine-laws.md|\
+        parts/part4/ch17-derivatives-function-analysis.md) continue ;;
+      esac
       printf '\n\\newpage\n\n'
       cat "$chapter"
     done
